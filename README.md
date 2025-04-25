@@ -27,7 +27,7 @@ import pikepdf
 import sys
 ```
 
-### **Step 2**:: Define the Function to Protect the PDF.
+### **Step 2**: Define the Function to Protect the PDF.
 This function opens the input PDF, applies encryption using the provided password, and saves the output PDF with password protection.
 ```python
 def protect_pdf(input_pdf, output_pdf, password):
@@ -39,7 +39,7 @@ def protect_pdf(input_pdf, output_pdf, password):
         print(f"Error: {e}")
 ```
 
-### **Step 3**:: Define the Main Function to Parse Command-Line Arguments.
+### **Step 3**: Define the Main Function to Parse Command-Line Arguments.
 This function checks if the correct number of arguments are provided. It then calls the protect_pdf function with the input PDF, output PDF, and password.
 ```python
 def main():
@@ -54,7 +54,7 @@ def main():
     protect_pdf(input_pdf, output_pdf, password)
 ```
 
-### **Step 4**:: Run the Script.
+### **Step 4**: Run the Script.
 If this script is executed directly (not imported as a module), the main() function will be called.
 ```python
 if __name__ == "__main__":
