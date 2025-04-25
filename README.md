@@ -1,5 +1,5 @@
 # PDF_Protection Tool 
-
+ 
 ## 🎯 Objective
 
 The PDF Protection Tool is designed to add password protection to PDF files. This tool allows users to secure their PDF documents by encrypting them with a password. It uses the pikepdf library to open, encrypt, and save a PDF file with user-defined security settings. This tool is useful for ensuring the confidentiality and protection of sensitive documents by preventing unauthorized access.
